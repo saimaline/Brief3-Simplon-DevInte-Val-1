@@ -19,7 +19,7 @@ Le client vous laisse libre de réaliser les pages "À propos" et "Contact" comm
 ## Consignes
 
 1. Forkez ce dépôt, puis clonez votre fork sur votre ordinateur. Ce dépôt sera votre dépôt git à utiliser tout le long de ce brief.
-2. Réalisez le site web en utilisant les langages HTML5 et CSS3. Le site doit être le plus proche possible de la maquette.
+2. Réalisez le site web en utilisant les langages HTML5 et CSS3. Le site doit être le plus proche possible de la maquette. (Tous les liens vers des articles sur la page d'accueil renverront sur la même page article. Pas besoin de créer plusieurs pages d'article.)
 
 ## Modalités pédagogiques
 
