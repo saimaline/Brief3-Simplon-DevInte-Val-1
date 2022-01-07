@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 a,
 button,
-p {
+p, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.4px;
 }
