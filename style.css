@@ -8,7 +8,7 @@ header {
 
 p,
 a,
-h2 {
+h2, h3 {
     font-family: 'Montserrat', sans-serif;
     color: #a8a8a8;
 }
@@ -105,4 +105,45 @@ nav ul li a {
     color: rgb(255, 255, 255);
     font-size: 19px;
     margin-right: 2%;
+}
+
+/* GRID */
+.grille{
+
+    display: grid;
+    width: 55%;
+    margin: 3% auto;
+    max-width: 100%;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 25px;
+
+}
+.grille article img{
+    width: 100%;
+    height: 340px;
+  
+}
+ .grille h3{
+    color: #d05270;
+    margin-bottom: 1.5% ;
+    font-size: 19px;
+}
+.grille h2{
+    color: #000000;
+    font-size: 12px;
+    margin-bottom: 1%;
+}
+
+.grille p {
+    font-size: 13px;
+    margin-bottom: 3%;
+   
+}
+
+
+.grille a{
+    color:#d05270;
+    font-size: 13px;
 }
