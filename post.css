@@ -7,9 +7,8 @@ p {
     letter-spacing: 0.4px;
 }
 
-h3,
-h1,
-h2 {
+h1
+{
     font-family: 'Abril Fatface', cursive;
     font-weight: 500;
 }
