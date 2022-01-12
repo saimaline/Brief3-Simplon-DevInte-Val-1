@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+header {
+    width: 1300px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:grey;
+    font-weight: 600;
+}
+
+.grille{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: grid;
+    height: auto;
+    grid-template-areas:
+    "item1 item2 item2"
+    "item3 item4 item5"
+    "item6 item6 item7" ;
+
+}
+
+.item-1 {
+    background-color:#b688cd;
+    width:100%;
+    height:30vh;
+    grid-area:item1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-1 p{
+    width:100%;
+    text-align:center;
+    color:whitesmoke;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-2{
+    background-image: url("image/mer.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:30vh;
+    grid-area:item2;
+}
+.item-2 img{
+    width: 100%;
+}
+.item-3{
+    background-color:#0d0f45;
+    width:100%;
+    height:50vh;
+    grid-area:item3;
+   
+
+}
+.item-3 p{
+    justify-items: center;
+    width: 100%;
+    height:100%;
+    font-size: 20px;
+    color:#e1466f; 
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: flex;
+    justify-content:center;
+    align-items: center
+}
+.item-4{
+    display: flex;
+    background-color:whitesmoke;
+    width:100%;
+    height:50vh;
+    grid-area:item4;
+    align-items: center;
+    justify-content: center;
+}
+.item-4 p{
+    text-align: center;
+    align-items: center;
+    height:18vh;
+    justify-content: center;
+    color:#e1466f;
+}
+.item-5{
+    background-color:#0d0f45;
+    width:100%;
+    height:50vh;
+    grid-area:item5;
+}
+.item-6{
+    background-image: url("image/mer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:30vh;
+    grid-area:item6;
+}
+
+.item-7{
+    background-color:#e1466f;
+    width:100%;
+    height:30vh;
+    grid-area:item7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item-7 p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
